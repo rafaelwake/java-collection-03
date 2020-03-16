@@ -40,18 +40,17 @@ public abstract class Animal {
     
     
     public void som(){
-        System.out.println("Este é o som padrão "
-        + "de um animal: zzzzzzZZZZZZZZZZzzzzzzzz");
+        System.out.println("Qual é meu som: ");
     }
     
     public void dizerMeuNome(){
         
         
-        System.out.println("O nome do animal eh: xxx" );
+        System.out.println("O nome do animal eh: " + nome);
     }
     
     private void dizerMinhaIdade(){
-        System.out.println("Minha idade eh: xxx");
+        System.out.println("Minha idade eh: " + idade);
     }
     
     
